@@ -5,12 +5,12 @@ import CreateOrder from "./pages/CreateOrder";
 import CreateMenu from "./pages/CreateMenu";
 import Order from "./pages/Order";
 import Menu from "./pages/Menu";
-import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
 
 const App = () => {
   return (
-    <div className="bg-gray-700 h-full w-full min-h-screen">
-      <Navbar />
+    <div className="w-full h-screen min-h-screen">
+      <Sidebar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/create-order" element={<CreateOrder />} />

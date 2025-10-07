@@ -1,18 +1,14 @@
 export default [
   {
-    path: "/create-order",
-    name: "Create Order",
-  },
-  {
-    path: "/create-menu",
-    name: "Create Menu",
+    path: "/penjualan",
+    name: "Halaman Penjualan",
   },
   {
     path: "/order",
-    name: "Order",
+    name: "Halaman Order",
   },
   {
     path: "/menu",
-    name: "Menu",
+    name: "Halaman Menu",
   },
 ];
